@@ -54,7 +54,7 @@ controlnet_path = f'./checkpoints/ControlNetModel'
 #controlnet = ControlNetModel.from_pretrained(controlnet_path, torch_dtype=torch.float16)
 controlnet = ControlNetModel.from_pretrained(controlnet_path, torch_dtype=torch_dtype)
 
-#base_model_path = 'stablediffusionapi/juggernaut-xl-v7'
+#base_model_path = 'stablediffusionapi/juggernaut-xl-v8'
 
 
 
@@ -465,7 +465,7 @@ if __name__ == '__main__':
     # Set the base_model_path based on the argument
     base_model_path = args.model_path
 
-    # If no argument is provided, it defaults to 'stablediffusionapi/juggernaut-xl-v8'
+    # If no argument is provided, it defaults to 'stablediffusionapi/juggernaut-xl-v9'
     
     # Display only the arguments currently in use
     print("Arguments currently in use:")
