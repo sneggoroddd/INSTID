@@ -54,7 +54,7 @@ controlnet_path = f'./checkpoints/ControlNetModel'
 #controlnet = ControlNetModel.from_pretrained(controlnet_path, torch_dtype=torch.float16)
 controlnet = ControlNetModel.from_pretrained(controlnet_path, torch_dtype=torch_dtype)
 
-#base_model_path = 'stablediffusionapi/juggernaut-xl-v8'
+#base_model_path = 'stablediffusionapi/juggernaut-xl-v7'
 
 
 
