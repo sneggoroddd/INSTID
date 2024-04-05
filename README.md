@@ -4,7 +4,7 @@
 
 --share				Creates a public URL
 
---model_path		Name of the sdxl model from huggingface   (the default model example: --model_path stablediffusionapi/juggernaut-xl-v8     diffuser model you can find here: https://huggingface.co/stablediffusionapi/juggernaut-xl-v8
+--model_path		Name of the sdxl model from huggingface   (the default model example: --model_path stablediffusionapi/juggernaut-xl-v8     diffuser model you can find here: https://huggingface.co/stablediffusionapi/juggernaut-xl-v9
 
 --medvram			Medium vram settings, uses around 13GB, max image resolution of 1024
 
